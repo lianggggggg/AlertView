@@ -14,6 +14,7 @@
 		9D2F7D8220623DEE00E67543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2F7D8020623DEE00E67543 /* LaunchScreen.storyboard */; };
 		9D2F7D8D20623DEE00E67543 /* AlertViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7D8C20623DEE00E67543 /* AlertViewDemoTests.swift */; };
 		9D2F7D9820623DEE00E67543 /* AlertViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7D9720623DEE00E67543 /* AlertViewDemoUITests.swift */; };
+		9D2F7DA72062408200E67543 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7DA62062408200E67543 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9D2F7D9320623DEE00E67543 /* AlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2F7D9720623DEE00E67543 /* AlertViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewDemoUITests.swift; sourceTree = "<group>"; };
 		9D2F7D9920623DEE00E67543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2F7DA62062408200E67543 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		9D2F7D7620623DEE00E67543 /* AlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9D2F7DA520623ECE00E67543 /* AlertView */,
 				9D2F7D7720623DEE00E67543 /* AppDelegate.swift */,
 				9D2F7D7920623DEE00E67543 /* ViewController.swift */,
 				9D2F7D7B20623DEE00E67543 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				9D2F7D9920623DEE00E67543 /* Info.plist */,
 			);
 			path = AlertViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		9D2F7DA520623ECE00E67543 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7DA62062408200E67543 /* AlertView.swift */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				9D2F7D7A20623DEE00E67543 /* ViewController.swift in Sources */,
 				9D2F7D7820623DEE00E67543 /* AppDelegate.swift in Sources */,
+				9D2F7DA72062408200E67543 /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJV2H2YZ3A;
 				INFOPLIST_FILE = AlertViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrLiang.AlertViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +455,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJV2H2YZ3A;
 				INFOPLIST_FILE = AlertViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrLiang.AlertViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
